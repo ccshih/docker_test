@@ -1,2 +1,2 @@
 FROM ubuntu
-RUN ls /etc 
+RUN ls /
