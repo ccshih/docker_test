@@ -1,3 +1,3 @@
 FROM ubuntu
 RUN ls /
-CMD ["sh", "-c", "tail -f /dev/null"]
+CMD ["sh", "-c", "while true; do sleep 30; done;"]
